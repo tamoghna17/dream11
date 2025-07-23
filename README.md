@@ -18,8 +18,6 @@ fantasy/
 ├── model_batsman.pkl           # Pre-trained batsman model
 ├── model_bowler.pkl            # Pre-trained bowler model
 ├── names.csv                   # Player name mappings
-└── __pycache__/                # Python cache
-
 ```
 ## Setup Instructions
 
