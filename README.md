@@ -43,7 +43,7 @@ docker build -t <file_path>.
 ```
 * Run the container, mounting your path-to-folder:
 ``` bash
-docker run -v <folder_path> <file_path>
+docker run -v <directory> <docker_image>
 ```
 * Install dependencies:
 ``` bash
@@ -57,7 +57,6 @@ pip install -r requirements.txt
 match_number=76
 ```
 * The predicted team will be saved as in specified path
-* 
 **Requirements**
 
 * Create virtual environment and activate it
